@@ -1,0 +1,35 @@
+{
+  "name": "yungchess",
+  "version": "0.0.3",
+  "description": "Promote Connection, Expression, and Personal human exploration",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeMayo/YungChess.git"
+  },
+  "keywords": [
+    "chess",
+    "new",
+    "school",
+    "gaming",
+    "webuild",
+    "awareness",
+    "personas",
+    "culture"
+  ],
+  "author": "Bayo & LLMs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CreativeMayo/YungChess/issues"
+  },
+  "homepage": "https://github.com/CreativeMayo/YungChess#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsboard": "^18.1.0",
+    "socket.io": "^4.7.0"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Yung Chess</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="game-board">
+    <div id="ego-consciousness-internal">Internal Ego Consciousness</div>
+    <div id="ego-consciousness-external">External Ego Consciousness</div>
+    <div id="personal-unconscious-internal">Personal Unconscious</div>
+    <div id="collective-unconscious-internal">Collective Unconscious</div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="path/to/jsboard.js"></script>
+  <script src="\app.js"></script>
+  <script src="\game.js"></script>
+  <script src="\gameBoard.js"></script>
+  <script>
+    // Initialize the game
+    const game = new Game();
+    game.initialize();
+
+    // Add event listeners to the game board elements
+    const gameBoard = document.getElementById("game-board");
+    gameBoard.addEventListener("click", game.handleClick);
+  </script>
+</body>
+</html>
